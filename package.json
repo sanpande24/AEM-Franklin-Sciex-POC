@@ -24,6 +24,7 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.29.1",
     "stylelint": "16.8.2",
-    "stylelint-config-standard": "36.0.1"
+    "stylelint-config-standard": "36.0.1",
+    "tailwindcss": "^3.4.12"
   }
 }
