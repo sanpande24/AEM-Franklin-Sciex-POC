@@ -9,7 +9,7 @@ export default function decorate(block) {
   [...block.children].forEach((row) => {
     const col = document.createElement('div');
     col.className = 'tw-w-full md:tw-w-1/2 tw-flex tw-flex-col media-grid-item md:tw-pt-0 false';
-    const pic = row.querySelector ('picture');
+    const pic = row.querySelector('picture');
     const imageContainer = document.createElement('div');
     const link = row.querySelector('a');
     link.target = '_blank';
