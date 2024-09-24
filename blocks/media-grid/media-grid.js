@@ -1,5 +1,4 @@
-
-    export default function decorate(block){
+export default function decorate(block){
     block.classList.add('tw');  
     const section = document.createElement('section');
     section.className ='tw-pt-32 md:tw-pt-48 tw-pb-32 md:tw-pb-48';
@@ -33,4 +32,4 @@
     section.appendChild(container);
     block.textContent = '';
     block.appendChild(section);
-    }
+}
